@@ -1,0 +1,28 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+  }
+  
+  .page-link {
+    color: #333;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    background-color: white; /* Establecemos el fondo de todos los botones en blanco */
+  }
+  
+  .page-item.active .page-link {
+    background-color: #aec0f4; /* Establecemos el fondo del botón activo en gris */
+  }
+  
+  .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: not-allowed;
+  }

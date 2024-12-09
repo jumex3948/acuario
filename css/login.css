@@ -1,0 +1,94 @@
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px 60px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    width: 500px;
+    text-align: center;
+    
+}
+
+h2 {
+    color: #004080;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 15px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid #004080;
+    outline: none;
+    color: #004080;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.input-box input:focus, .input-box input:valid {
+    border-bottom: 3px solid #0080ff;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #004080;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.input-box input:focus ~ label, .input-box input:valid ~ label {
+    top: -10px;
+    font-size: 14px;
+    color: #0080ff;
+}
+
+input[type="submit"] {
+    background: #0080ff;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background: #004080;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 20px;
+    color: #004080;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.forgot-password:hover {
+    color: #0080ff;
+}
+
+#nombreget{
+    font-size: 60px;
+    color:#fff;
+}

@@ -1,0 +1,50 @@
+.fondo-transparente {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco translúcido */
+    backdrop-filter: blur(10px); /* Difuminado del fondo */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+#iconindex{
+    padding-left: 50px;
+    padding-top: 70px;
+}
+.soc-icons{
+    margin-top: 10px;
+}
+.container_ventas{
+    margin-right:auto;
+    margin-left:auto;*zoom:1}
+
+
+
+
+  .mi-boton {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white;              /* Color del texto */
+    border: none;              /* Sin borde */
+    padding: 12px 24px;        /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    font-size: 16px;           /* Tamaño del texto */
+    border-radius: 8px;        /* Bordes redondeados */
+    cursor: pointer;           /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Animación suave al cambiar el color */
+  }
+
+  /* Efecto al pasar el mouse sobre el botón */
+  .mi-boton:hover {
+    background-color: #45a049; /* Color al hacer hover */
+  }
+
+  /* Efecto al hacer clic */
+  .mi-boton:active {
+    background-color: #3e8e41;
+    transform: scale(0.98); /* Leve reducción para simular clic */
+  }
+
+  /* Estilo para botones deshabilitados */
+  .mi-boton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
